@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@drawable/bg_dialog" android:layout_width="UNKNOWN_DATA_0x25001" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.zidoo.fileexplorer.view.ZidooTextView android:textSize="30sp" android:textColor="@color/operate_title" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:text="@string/add" />
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="35dp" android:layout_marginTop="20dp">
+                <TextView android:textSize="22sp" android:textColor="0x106000b" android:layout_width="UNKNOWN_DATA_0x6e01" android:layout_height="wrap_content" android:text="@string/server" android:maxLines="1" />
+                <EditText android:id="@+id/et_server" android:layout_width="UNKNOWN_DATA_0x11801" android:layout_height="UNKNOWN_DATA_0x3c01" android:hint="@string/hint_server" style="@style/EditText" />
+                <Button android:textSize="16sp" android:textColor="@drawable/selector_text_default_button" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/bt_url_tip" android:background="@drawable/st_smb_url_tip" android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginLeft="10dp" android:text="?" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="35dp" android:layout_marginTop="12dp">
+                <TextView android:textSize="22sp" android:textColor="0x106000b" android:id="@+id/tv_user" android:layout_width="UNKNOWN_DATA_0x6e01" android:layout_height="wrap_content" android:text="@string/user" android:maxLines="1" />
+                <EditText android:textStyle="UNKNOWN_DATA_0x0" android:id="@+id/et_user" android:layout_width="UNKNOWN_DATA_0x11801" android:layout_height="UNKNOWN_DATA_0x3c01" style="@style/EditText" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="35dp" android:layout_marginTop="12dp">
+                <TextView android:textSize="22sp" android:textColor="0x106000b" android:id="@+id/tv_password" android:layout_width="UNKNOWN_DATA_0x6e01" android:layout_height="wrap_content" android:text="@string/password" android:maxLines="1" />
+                <EditText android:id="@+id/et_password" android:layout_width="UNKNOWN_DATA_0x11801" android:layout_height="UNKNOWN_DATA_0x3c01" style="@style/EditText" />
+            </LinearLayout>
+            <CheckBox android:textSize="20sp" android:textColor="@drawable/selector_text_file_exist_dialog_checkbox" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/cb_anonymous" android:paddingLeft="10dp" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="165dp" android:layout_marginTop="12dp" android:button="@drawable/st_browse_checkbox" android:text="@string/anonymous" />
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5001">
+                <com.zidoo.fileexplorer.view.ZidooButton android:id="@+id/bt_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add" style="@style/Button" />
+                <com.zidoo.fileexplorer.view.ZidooButton android:id="@+id/bt_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50dp" android:text="@string/cancel" style="@style/Button" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

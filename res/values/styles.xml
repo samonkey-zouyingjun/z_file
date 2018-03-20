@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme">
+    </style>
+    <style name="AppTheme">
+    </style>
+    <style name="Button">
+        <item>23sp</item>
+        <item>@drawable/selector_text_default_button</item>
+        <item>11</item>
+        <item>@drawable/st_btn</item>
+        <item>8dp</item>
+        <item>8dp</item>
+        <item>@dimen/w_btn</item>
+    </style>
+    <style name="EditText">
+        <item>20sp</item>
+        <item>?unknown_ref: 106000b</item>
+        <item>@color/edit_hint</item>
+        <item>10</item>
+        <item>@drawable/st_edit_def</item>
+        <item>true</item>
+        <item>20dp</item>
+        <item>20dp</item>
+    </style>
+    <style name="OperateItem">
+        <item>24sp</item>
+        <item>@color/operate_item</item>
+        <item>@drawable/st_operate_item</item>
+        <item>20dp</item>
+        <item>20dp</item>
+        <item>54dp</item>
+    </style>
+    <style name="PassWordEdit">
+        <item>16</item>
+        <item>12</item>
+    </style>
+    <style name="Switch">
+        <item>#ffffff</item>
+        <item>#00ffffff</item>
+        <item>53dp</item>
+        <item>0dp</item>
+        <item>?unknown_ref: 1030046</item>
+        <item>0</item>
+        <item>0</item>
+        <item>@drawable/img_thumb</item>
+        <item>16dp</item>
+        <item>@drawable/switch_btn</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification">
+    </style>
+    <style name="TextAppearance.Compat.Notification">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info">
+        <item>12sp</item>
+        <item>?unknown_attr_ref: 1010038</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info.Media">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info.Media">
+        <item>@color/secondary_text_default_material_dark</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info.Media">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Line2">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Line2.Media">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Media">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Media">
+        <item>@color/secondary_text_default_material_dark</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Media">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time">
+        <item>12sp</item>
+        <item>?unknown_attr_ref: 1010038</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time.Media">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time.Media">
+        <item>@color/secondary_text_default_material_dark</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time.Media">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title.Media">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title.Media">
+        <item>@color/primary_text_default_material_dark</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title.Media">
+    </style>
+    <style name="Widget.Compat.NotificationActionContainer">
+    </style>
+    <style name="Widget.Compat.NotificationActionContainer">
+        <item>@drawable/notification_action_background</item>
+    </style>
+    <style name="Widget.Compat.NotificationActionText">
+    </style>
+    <style name="Widget.Compat.NotificationActionText">
+        <item>?unknown_attr_ref: 1010207</item>
+        <item>@dimen/notification_action_text_size</item>
+        <item>@color/secondary_text_default_material_light</item>
+    </style>
+    <style name="browsing_create">
+        <item>0.7</item>
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="defaultDialog">
+        <item>0.4</item>
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>@style/dialog_anim</item>
+    </style>
+    <style name="dialog_anim">
+        <item>@anim/scale_dialog_show</item>
+        <item>@anim/set_dialog_gone</item>
+    </style>
+    <style name="dialog_full_screen">
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+    </style>
+</resources>

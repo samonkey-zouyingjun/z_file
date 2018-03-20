@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="file_type">
+        <item>תיקייה</item>
+        <item>מוסיקה</item>
+        <item>וידאו</item>
+        <item>תמונות</item>
+        <item>מסמכים</item>
+        <item>קבצי APK</item>
+        <item>קובץ</item>
+        <item>קובץ Word</item>
+        <item>קובץ Excel</item>
+        <item>קובץ PowerPoint</item>
+        <item>אתר אינטרנט</item>
+        <item>Zip</item>
+        <item>אחר</item>
+    </array>
+    <array name="hdd_devices">
+        <item>דיסק קשיח</item>
+        <item>דיסק קשיח 1</item>
+        <item>דיסק קשיח 2</item>
+        <item>דיסק קשיח 3</item>
+        <item>דיסק קשיח 4</item>
+        <item>דיסק קשיח 5</item>
+    </array>
+    <array name="screens">
+        <item>הכל</item>
+        <item>וידאו</item>
+        <item>מוסיקה</item>
+        <item>תמונות</item>
+        <item>קבצי APK</item>
+    </array>
+    <array name="usb_devices">
+        <item>USB</item>
+        <item>USB 1</item>
+        <item>USB 2</item>
+        <item>USB 3</item>
+        <item>USB 4</item>
+        <item>USB 5</item>
+    </array>
+</resources>

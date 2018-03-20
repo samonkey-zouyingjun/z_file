@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="file_type">
+        <item>Map</item>
+        <item>Muziek</item>
+        <item>Video</item>
+        <item>Foto</item>
+        <item>Tekst</item>
+        <item>APK</item>
+        <item>Bestand</item>
+        <item>Word bestand</item>
+        <item>Excel bestand</item>
+        <item>PPT bestand</item>
+        <item>Web</item>
+        <item>ZIP bestand</item>
+        <item>Ander</item>
+    </array>
+    <array name="hdd_devices">
+        <item>HDD</item>
+        <item>HDD 1</item>
+        <item>HDD 2</item>
+        <item>HDD 3</item>
+        <item>HDD 4</item>
+        <item>HDD 5</item>
+    </array>
+    <array name="screens">
+        <item>Alles</item>
+        <item>Video</item>
+        <item>Muziek</item>
+        <item>Afbeelding</item>
+        <item>APK</item>
+    </array>
+    <array name="usb_devices">
+        <item>USB</item>
+        <item>USB 1</item>
+        <item>USB 2</item>
+        <item>USB 3</item>
+        <item>USB 4</item>
+        <item>USB 5</item>
+    </array>
+</resources>

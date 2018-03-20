@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="file_type">
+        <item>Pasta</item>
+        <item>Música</item>
+        <item>Vídeo</item>
+        <item>Imagem</item>
+        <item>Texto</item>
+        <item>Aplicativo</item>
+        <item>Arquivo</item>
+        <item>Word</item>
+        <item>Excel</item>
+        <item>PowerPoint</item>
+        <item>Página Web</item>
+        <item>Zip</item>
+        <item>Outros</item>
+    </array>
+    <array name="hdd_devices">
+        <item>HDD</item>
+        <item>HDD 1</item>
+        <item>HDD 2</item>
+        <item>HDD 3</item>
+        <item>HDD 4</item>
+        <item>HDD 5</item>
+    </array>
+    <array name="screens">
+        <item>Todos</item>
+        <item>Vídeo</item>
+        <item>Música</item>
+        <item>Imagem</item>
+        <item>Aplicativo</item>
+    </array>
+    <array name="usb_devices">
+        <item>USB</item>
+        <item>USB 1</item>
+        <item>USB 2</item>
+        <item>USB 3</item>
+        <item>USB 4</item>
+        <item>USB 5</item>
+    </array>
+</resources>

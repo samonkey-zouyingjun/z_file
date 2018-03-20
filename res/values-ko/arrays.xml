@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="file_type">
+        <item>폴더</item>
+        <item>음악</item>
+        <item>비디오</item>
+        <item>사진</item>
+        <item>텍스트</item>
+        <item>APK</item>
+        <item>파일</item>
+        <item>Word</item>
+        <item>Excel</item>
+        <item>PPT</item>
+        <item>Web</item>
+        <item>Zip</item>
+        <item>기타</item>
+    </array>
+    <array name="hdd_devices">
+        <item>HDD</item>
+        <item>HDD 1</item>
+        <item>HDD 2</item>
+        <item>HDD 3</item>
+        <item>HDD 4</item>
+        <item>HDD 5</item>
+    </array>
+    <array name="screens">
+        <item>모두</item>
+        <item>비디오</item>
+        <item>음악</item>
+        <item>이미지</item>
+        <item>APK</item>
+    </array>
+    <array name="usb_devices">
+        <item>USB</item>
+        <item>USB 1</item>
+        <item>USB 2</item>
+        <item>USB 3</item>
+        <item>USB 4</item>
+        <item>USB 5</item>
+    </array>
+</resources>

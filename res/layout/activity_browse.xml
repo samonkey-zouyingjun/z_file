@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="#88000000" app:layout_width="match_parent" app:layout_height="match_parent"
+    <RelativeLayout app:orientation="vertical" app:id="@+id/main_layout" app:background="@drawable/img_browse_bgd" app:padding="20dp" app:layout_width="UNKNOWN_DATA_0x42001" app:layout_height="UNKNOWN_DATA_0x26201" app:layout_centerInParent="true">
+        <TextView app:textSize="28sp" app:id="@id/title" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="120dp" app:layout_marginTop="13dp" app:layout_marginRight="120dp" app:maxLines="1" app:layout_centerHorizontal="true" />
+        <ImageView app:id="@+id/title_line" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="16dp" app:src="@drawable/img_browse_title_line" app:layout_below="@id/title" app:layout_centerHorizontal="true" app:layout_marginStart="36dp" app:layout_marginEnd="36dp" />
+        <RelativeLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_below="@+id/title_line">
+            <pers.lic.tool.widget.SnapRecyclerView app:id="@+id/file_list" app:layout_width="UNKNOWN_DATA_0x2de01" app:layout_height="UNKNOWN_DATA_0x1ac01" app:layout_marginTop="10dp" app:layout_marginStart="32dp" app:snap="40dp" />
+            <TextView app:textSize="24sp" app:textColor="@color/browse_path" app:id="@+id/path" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="10dp" app:maxWidth="700dp" app:singleLine="true" app:layout_below="@+id/file_list" app:layout_marginStart="64dp" />
+            <ImageView app:id="@+id/right_line" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="24dp" app:src="@drawable/img_browse_right_line" app:layout_marginStart="36dp" app:layout_toEndOf="@+id/file_list" />
+            <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginTop="16dp" app:layout_toEndOf="@+id/right_line">
+                <Button app:textSize="20sp" app:textColor="@color/browse_btn" app:id="@+id/select_directory" app:background="@drawable/st_browse_btn" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/ok" />
+                <Button app:textSize="20sp" app:textColor="@color/browse_btn" app:id="@+id/cancel" app:background="@drawable/st_browse_btn" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="44dp" app:text="@string/cancel" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

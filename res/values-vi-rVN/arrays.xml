@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="file_type">
+        <item>Thư mục</item>
+        <item>Âm nhạc</item>
+        <item>Video</item>
+        <item>Hình ảnh</item>
+        <item>Text</item>
+        <item>APK</item>
+        <item>Tập tin</item>
+        <item>Word</item>
+        <item>Excel</item>
+        <item>Ppt</item>
+        <item>Web</item>
+        <item>Zip</item>
+        <item>Khác</item>
+    </array>
+    <array name="hdd_devices">
+        <item>HDD</item>
+        <item>HDD 1</item>
+        <item>HDD 2</item>
+        <item>HDD 3</item>
+        <item>HDD 4</item>
+        <item>HDD 5</item>
+    </array>
+    <array name="screens">
+        <item>Tất cả</item>
+        <item>Video</item>
+        <item>Âm nhạc</item>
+        <item>Hình ảnh</item>
+        <item>APK</item>
+    </array>
+    <array name="usb_devices">
+        <item>USB</item>
+        <item>USB 1</item>
+        <item>USB 2</item>
+        <item>USB 3</item>
+        <item>USB 4</item>
+        <item>USB 5</item>
+    </array>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@drawable/bg_dialog" android:layout_width="UNKNOWN_DATA_0x20801" android:layout_height="wrap_content">
+        <com.zidoo.fileexplorer.view.ZidooTextView android:textSize="30sp" android:textColor="@color/operate_title" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:text="@string/create_new" />
+        <EditText android:textStyle="UNKNOWN_DATA_0x0" android:id="@+id/et_rename" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_marginTop="50dp" android:hint="@string/create_hint" style="@style/EditText" />
+        <RadioGroup android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@+id/rg_create_file_type" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp">
+            <RadioButton android:textSize="24sp" android:textColor="@drawable/selector_text_cb" android:id="@+id/rb_new_folder" android:paddingLeft="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:button="0x0" android:text="@string/folder" android:drawableLeft="@drawable/selector_rb_create" android:drawablePadding="10dp" android:fontFamily="sans-serif-light" />
+            <RadioButton android:textSize="24sp" android:textColor="@drawable/selector_text_cb" android:id="@+id/rb_new_file" android:paddingLeft="0dp" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ml_create_file_dir" android:button="0x0" android:text="@string/file" android:drawableLeft="@drawable/selector_rb_create" android:drawablePadding="10dp" android:fontFamily="sans-serif-light" />
+        </RadioGroup>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5001" android:layout_marginTop="20dp">
+            <com.zidoo.fileexplorer.view.ZidooButton android:id="@+id/bt_create" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/create" style="@style/Button" />
+            <com.zidoo.fileexplorer.view.ZidooButton android:id="@+id/bt_create_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50dp" android:text="@string/cancel" style="@style/Button" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

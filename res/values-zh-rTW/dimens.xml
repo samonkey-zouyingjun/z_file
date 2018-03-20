@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ml_address">80dp</dimen>
+    <dimen name="ml_user">110dp</dimen>
+    <dimen name="ts_copy_reserve">1.0</dimen>
+    <dimen name="ts_copy_skip">1.0</dimen>
+    <dimen name="ts_delete_msg">1.0</dimen>
+    <dimen name="ts_sort_date">1.0</dimen>
+    <dimen name="ts_viewport_mode">1.0</dimen>
+    <dimen name="viewport_rb_date">22sp</dimen>
+</resources>

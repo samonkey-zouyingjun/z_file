@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="vertical" android:background="@drawable/shape_bg_copy_exists" android:padding="10dp" android:layout_width="UNKNOWN_DATA_0x25001" android:layout_height="wrap_content">
+        <com.zidoo.fileexplorer.view.ZidooTextView android:textSize="30sp" android:textColor="@color/copy_title" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/tv_operate_title" android:paddingLeft="30dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5001" android:text="@string/copy_file" android:singleLine="true" />
+        <com.zidoo.fileexplorer.view.ZidooTextView android:textSize="22sp" android:textColor="@color/button_nomale" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/select_same_file_operate" />
+        <com.zidoo.fileexplorer.view.ZidooTextView android:textSize="18sp" android:textColor="@color/half_high_dark" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="35dp" android:layout_marginTop="10dp" android:text="@string/src_folder" />
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linear_dir_src" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/iv_src_icon" android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_marginLeft="25dp" android:src="@drawable/icon_dir" />
+            <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+                <com.zidoo.fileexplorer.view.ZidooTextView android:textSize="18sp" android:textColor="@color/dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                <com.zidoo.fileexplorer.view.ZidooTextView android:textSize="18sp" android:textColor="@color/dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.zidoo.fileexplorer.view.ZidooTextView android:textSize="18sp" android:textColor="@color/half_high_dark" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="35dp" android:layout_marginTop="3dp" android:text="@string/des_folder" />
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linear_dir_des" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/iv_des_icon" android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_marginLeft="25dp" android:src="@drawable/icon_dir" />
+            <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+                <com.zidoo.fileexplorer.view.ZidooTextView android:textSize="18sp" android:textColor="@color/dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                <com.zidoo.fileexplorer.view.ZidooTextView android:textSize="18sp" android:textColor="@color/dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <CheckBox android:textSize="18sp" android:textColor="@drawable/selector_text_file_exist_dialog_checkbox" android:id="@+id/cb_save_operate" android:paddingLeft="10dp" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="35dp" android:layout_marginTop="5dp" android:button="@drawable/st_browse_checkbox" android:text="@string/keep_operate" />
+        <LinearLayout android:orientation="vertical" android:id="@+id/linear_merge" android:background="@drawable/selector_keep_item_bg" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="10dp" android:layout_marginRight="30dp">
+            <com.zidoo.fileexplorer.view.ZidooTextView android:textSize="@dimen/tz_copy_operate" android:textColor="@color/lighter_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/merge" android:singleLine="true" android:drawableLeft="@drawable/img_copy_right" />
+            <com.zidoo.fileexplorer.view.ZidooTextView android:textSize="20sp" android:textColor="@color/dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:text="@string/merge_msg" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/linear_dir_skip" android:background="@drawable/selector_keep_item_bg" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="10dp" android:layout_marginRight="30dp" android:layout_marginBottom="10dp">
+            <com.zidoo.fileexplorer.view.ZidooTextView android:textSize="@dimen/tz_copy_operate" android:textColor="@color/lighter_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/skip" android:singleLine="true" android:drawableLeft="@drawable/img_copy_right" />
+            <com.zidoo.fileexplorer.view.ZidooTextView android:textSize="20sp" android:textColor="@color/dark" android:id="@+id/tv_skip_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:text="@string/skip_msg" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

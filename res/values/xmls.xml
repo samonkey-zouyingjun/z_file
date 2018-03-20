@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <xml name="selector_bt_0">res/xml/selector_bt_0.xml</xml>
+    <xml name="selector_list_selector_0">res/xml/selector_list_selector_0.xml</xml>
+    <xml name="selector_tv_bt_0">res/xml/selector_tv_bt_0.xml</xml>
+    <xml name="shape_bg_0">res/xml/shape_bg_0.xml</xml>
+    <xml name="shape_list_bg_0">res/xml/shape_list_bg_0.xml</xml>
+    <xml name="shape_menu_bg_0">res/xml/shape_menu_bg_0.xml</xml>
+</resources>

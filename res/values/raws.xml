@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <raw name="back">res/raw/back.mp3</raw>
+    <raw name="down">res/raw/down.mp3</raw>
+    <raw name="dpad_center">res/raw/dpad_center.mp3</raw>
+    <raw name="h3">res/raw/h3.ogg</raw>
+    <raw name="left">res/raw/left.mp3</raw>
+    <raw name="menu">res/raw/menu.mp3</raw>
+    <raw name="right">res/raw/right.mp3</raw>
+    <raw name="soud_theme0">res/raw/soud_theme0.wav</raw>
+    <raw name="up">res/raw/up.mp3</raw>
+</resources>

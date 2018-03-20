@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@drawable/bg_dialog" android:layout_width="UNKNOWN_DATA_0x20801" android:layout_height="wrap_content">
+        <com.zidoo.fileexplorer.view.ZidooTextView android:textSize="30sp" android:textColor="@color/operate_title" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:text="@string/open_with" />
+        <com.zidoo.fileexplorer.view.ZidooTextView android:textSize="26sp" android:textStyle="UNKNOWN_DATA_0x0" android:textColor="0x106000b" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35dp" android:text="@string/open_cue_reminds" android:lineSpacingExtra="6dp" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5001" android:layout_marginTop="30dp">
+            <com.zidoo.fileexplorer.view.ZidooButton android:id="@+id/bt_open_cue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/open_by_txt" style="@style/Button" />
+            <com.zidoo.fileexplorer.view.ZidooButton android:id="@+id/bt_play_cue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:text="@string/play_relevant_document" style="@style/Button" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

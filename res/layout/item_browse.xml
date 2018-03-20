@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/st_browse_item" android:focusable="true" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3801">
+    <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="38dp" />
+    <ImageView android:id="@+id/select" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_browse_select" android:layout_centerVertical="true" android:layout_marginEnd="20dp" android:layout_alignParentEnd="true" />
+    <TextView android:textSize="20sp" android:textColor="@color/c2c2c2" android:ellipsize="marquee" android:id="@+id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_centerVertical="true" android:marqueeRepeatLimit="marquee_forever" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" android:layout_toStartOf="@+id/select" android:layout_toEndOf="@id/icon" />
+</RelativeLayout>

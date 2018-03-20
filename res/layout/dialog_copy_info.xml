@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@drawable/bg_dialog" android:layout_width="UNKNOWN_DATA_0x24401" android:layout_height="wrap_content">
+        <com.zidoo.fileexplorer.view.ZidooTextView android:textSize="30sp" android:textColor="@color/copy_title" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/tv_operate_title" android:paddingLeft="30dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:text="@string/copy_file" android:singleLine="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="24dp" android:layout_marginRight="20dp">
+            <com.zidoo.fileexplorer.view.ZidooTextView android:textSize="18sp" android:textColor="0x1060000" android:ellipsize="start" android:id="@+id/tv_current_operate_file" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <ProgressBar android:id="@+id/progress" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xa01" android:layout_marginLeft="20dp" android:layout_marginTop="10dp" android:layout_marginRight="20dp" android:max="1000" android:progressDrawable="@drawable/layer_progressbar" style="?unknown_attr_ref: 1010078" />
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:layout_marginRight="20dp">
+            <com.zidoo.fileexplorer.view.ZidooTextView android:textSize="20sp" android:textColor="0x1060000" android:id="@+id/tv_file_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/size" android:singleLine="true" android:layout_weight="1.0E-4" />
+            <com.zidoo.fileexplorer.view.ZidooTextView android:textSize="20sp" android:textColor="0x106000b" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/tv_current_file_size" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="0.1" />
+            <com.zidoo.fileexplorer.view.ZidooTextView android:textSize="20sp" android:textColor="0x1060000" android:id="@+id/tv_total_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/computing" android:singleLine="true" android:layout_weight="1.0E-4" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x6401" android:layout_marginTop="20dp">
+            <com.zidoo.fileexplorer.view.ZidooButton android:id="@+id/bt_end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" style="@style/Button" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

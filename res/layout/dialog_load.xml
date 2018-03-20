@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.zidoo.fileexplorer.view.ProgressWheel android:id="@+id/progress" android:visibility="visible" android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="UNKNOWN_DATA_0x3c01" android:indeterminateDrawable="0x1060013" android:layout_centerInParent="true" />
+</RelativeLayout>

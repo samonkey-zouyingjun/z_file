@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ScrollView android:layout_width="UNKNOWN_DATA_0x20001" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/bg_dialog" android:paddingBottom="60dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.zidoo.fileexplorer.view.ZidooTextView android:textSize="30sp" android:textColor="@color/operate_title" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3c01" android:text="@string/title_search" />
+            <RelativeLayout android:orientation="horizontal" android:id="@+id/rela_search_accurate" android:background="@drawable/selector_setting_item" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:layout_marginRight="20dp">
+                <com.zidoo.fileexplorer.view.ZidooTextView android:textSize="23sp" android:textColor="0x1060000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/accurate_search" android:layout_centerVertical="true" />
+                <ImageView android:background="@drawable/img_cb_ck" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginRight="20dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@+id/rela_search_normal" android:background="@drawable/selector_setting_item" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:layout_marginRight="20dp">
+                <com.zidoo.fileexplorer.view.ZidooTextView android:textSize="23sp" android:textColor="0x1060000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/normal_search" android:layout_centerVertical="true" />
+                <ImageView android:background="@drawable/img_cb_ck" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginRight="20dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@+id/rela_search_quick" android:background="@drawable/selector_setting_item" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:layout_marginRight="20dp">
+                <com.zidoo.fileexplorer.view.ZidooTextView android:textSize="23sp" android:textColor="0x1060000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/quick_search" android:layout_centerVertical="true" />
+                <ImageView android:background="@drawable/img_cb_ck" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginRight="20dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

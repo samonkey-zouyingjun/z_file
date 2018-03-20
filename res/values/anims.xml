@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <anim name="scale_dialog_show">res/anim/scale_dialog_show.xml</anim>
+    <anim name="set_dialog_gone">res/anim/set_dialog_gone.xml</anim>
+    <anim name="translate_letf">res/anim/translate_letf.xml</anim>
+    <anim name="translate_right">res/anim/translate_right.xml</anim>
+</resources>

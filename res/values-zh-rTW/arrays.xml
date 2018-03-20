@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="file_type">
+        <item>文件夾</item>
+        <item>音樂</item>
+        <item>視頻</item>
+        <item>圖片</item>
+        <item>文本</item>
+        <item>安裝包</item>
+        <item>文檔</item>
+        <item>文檔</item>
+        <item>表格</item>
+        <item>幻燈片</item>
+        <item>網頁</item>
+        <item>壓縮包</item>
+        <item>其它</item>
+    </array>
+    <array name="hdd_devices">
+        <item>硬  盤</item>
+        <item>硬  盤  壹</item>
+        <item>硬  盤  二</item>
+        <item>硬  盤  三</item>
+        <item>硬  盤  四</item>
+        <item>硬  盤  五</item>
+    </array>
+    <array name="menu">
+        <item>視      圖</item>
+        <item>多      選</item>
+        <item>復      制</item>
+        <item>粘      貼</item>
+        <item>剪      切</item>
+        <item>刪      除</item>
+        <item>收      藏</item>
+        <item>重 命 名</item>
+        <item>新      建</item>
+        <item>設      置</item>
+        <item>掃      描</item>
+        <item>選      擇</item>
+        <item>移      除</item>
+        <item>快捷方式</item>
+    </array>
+    <array name="screens">
+        <item>全      部</item>
+        <item>視      頻</item>
+        <item>音      樂</item>
+        <item>圖      片</item>
+        <item>安裝包</item>
+    </array>
+    <array name="usb_devices">
+        <item>U  盤</item>
+        <item>U  盤  壹</item>
+        <item>U  盤  二</item>
+        <item>U  盤  三</item>
+        <item>U  盤  四</item>
+        <item>U  盤  五</item>
+    </array>
+</resources>
